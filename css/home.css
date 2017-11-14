@@ -1,0 +1,92 @@
+#container{
+  width: 90%;
+  background-color: grey;
+  display: block;
+  margin: auto;
+}
+
+.header{
+  display: block;
+  overflow: hidden;
+}
+
+.name{
+  display: inline-block;
+  float: right;
+}
+
+.navigation{
+  max-width: 100%;
+}
+.logo{
+  display: inline-block;
+  padding-top: 25px;
+}
+
+ul.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li.menu {
+  float: left;
+}
+
+li.menu a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li.menu a:hover {
+  background-color: #111;
+}
+
+.profile{
+  border-radius: 70%;
+}
+.me{
+  display: inline-flex;
+}
+#Projects{
+  max-width: 100%;
+  display: inline-flex;
+}
+.examples{
+  max-width: 33%;
+  height: auto;
+
+}
+
+.screenshot{
+  width: 90%;
+  height: auto;
+  margin: auto;
+  display: block;
+}
+
+.link{
+  text-align: center;
+}
+
+.footer{
+  display: inline-flex;
+}
+
+.github{
+  margin-left: 25px;
+}
+
+.facebook{
+  margin-left: 25px;
+}
+
+.linkedin{
+  margin-left: 25px;
+}
