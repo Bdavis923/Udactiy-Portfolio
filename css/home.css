@@ -64,7 +64,6 @@ li.menu a:hover {
 @media only screen
   and (min-device-width: 414px)
   and (max-device-width: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) {
     .examples {
       max-width: 90%;
@@ -76,7 +75,6 @@ li.menu a:hover {
 @media only screen
   and (min-device-width: 414px)
   and (max-device-width: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) {
     .examples {
       max-width: 45%;
@@ -89,7 +87,6 @@ li.menu a:hover {
 @media only screen
   and (min-device-width: 414px)
   and (max-device-width: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) {
     .examples {
       max-width: 45%;
@@ -101,8 +98,7 @@ li.menu a:hover {
 
 @media screen
   and (min-device-width: 800px)
-  and (max-device-width: 1600px)
-  and (-webkit-min-device-pixel-ratio: 1) {
+  and (max-device-width: 1600px) {
     .examples {
       max-width: 33%;
       height: auto;
