@@ -1,24 +1,24 @@
-#container{
+#container {
   width: 90%;
   background-color: grey;
   display: block;
   margin: auto;
 }
 
-.header{
+.header {
   display: block;
   overflow: hidden;
 }
 
-.name{
+.name {
   display: inline-block;
   float: right;
 }
 
-.navigation{
+.navigation {
   max-width: 100%;
 }
-.logo{
+.logo {
   display: inline-block;
   padding-top: 25px;
 }
@@ -43,50 +43,96 @@ li.menu a {
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
+/* Change the link color to black on hover */
 li.menu a:hover {
   background-color: #111;
 }
 
-.profile{
+.profile {
   border-radius: 70%;
 }
 .me{
   display: inline-flex;
 }
-#Projects{
+#projects {
   max-width: 100%;
   display: inline-flex;
 }
-.examples{
-  max-width: 33%;
-  height: auto;
+
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+    .examples {
+      max-width: 90%;
+      height: auto;
+    }
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+    .examples {
+      max-width: 45%;
+      height: auto;
+
+    }
+
+}
+/* Portrait */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+    .examples {
+      max-width: 45%;
+      height: auto;
+
+    }
 
 }
 
-.screenshot{
+@media screen
+  and (min-device-width: 800px)
+  and (max-device-width: 1600px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .examples {
+      max-width: 33%;
+      height: auto;
+    }
+}
+
+
+.screenshot {
   width: 90%;
   height: auto;
   margin: auto;
   display: block;
 }
 
-.link{
+.link {
   text-align: center;
 }
 
-.footer{
+.footer {
   display: inline-flex;
 }
 
-.github{
+.github {
   margin-left: 25px;
 }
 
-.facebook{
+.facebook {
   margin-left: 25px;
 }
 
-.linkedin{
+.linkedin {
   margin-left: 25px;
 }
